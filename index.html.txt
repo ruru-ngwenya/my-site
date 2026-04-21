@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+  <main id="main-doc">
+    <nav id="navbar">
+    <header>topic</header>
+    <a class="nav-link" href="#doc_one">Doc One</a>
+
+    <a class="nav-link" href="#doc_two">Doc Two</a>
+    <a class="nav-link" href="#doc_three">Doc Three</a>
+    <a class="nav-link" href="#doc_four">Doc Four</a>
+    <a class="nav-link" href="#doc_five">Doc Five</a>
+    </nav>
+<section class="main-section" id="doc_one">
+<header>Doc One</header>
+
+<p>This guide assumes you have the following basic background:</p>
+<p>
+JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+<code></code>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</section>
+
+<section class="main-section" id="doc_two">
+  <header>Doc Two</header>
+  <p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+  <p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+  <code></code>
+</section>
+<section class="main-section" id="doc_three">
+  <header>Doc Three</header>
+   <p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+   <p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+   <code></code>
+</section>
+<section class="main-section" id="doc_four">
+  <header>Doc Four</header>
+<p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+<p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+<code></code>
+</section>
+<section class="main-section" id="doc_five">
+  <header> Doc Five</header>
+  <p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+  <p>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</p>
+  <code></code>
+</section>
+
+
+
+  </main>
+  </body>
+</html>
+#navbar header{
+font-size:1.618em;
+margin-bottom:7px;
+
+
+
+}
+
+#navbar a{
+margin-bottom:12px;
+display:block;
+text-decoration:none;
+}
+#main-doc{
+
+margin-left:200px;
+
+
+}
+@media (max-height:600px){
+
+.main-section{
+
+font-size:.9em;
+
+}
+
+
+
+}
